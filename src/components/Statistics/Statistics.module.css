@@ -1,0 +1,31 @@
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  background-color: rgb(202, 215, 231);
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: 1px solid rgb(202, 215, 231);
+}
+.item {
+  font-size: 20px;
+  font-weight: 500;
+
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 5px;
+}
+.listTotal {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid rgb(202, 215, 231);
+}

@@ -1,0 +1,31 @@
+.btnContainer {
+  padding: 15px;
+  padding-bottom: 0;
+}
+.btn {
+  color: #fff;
+  background: rgb(56, 137, 212);
+  padding: 0.7em 1.5em;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 360px;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
+.btn:hover {
+  background: rgb(76, 170, 232);
+}
+.btn:active {
+  background: rgb(0, 66, 152);
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
